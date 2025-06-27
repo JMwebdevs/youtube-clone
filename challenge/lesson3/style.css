@@ -50,14 +50,13 @@ main {
 }
 /* A */
 .uber {
-  height: 30px;
-  width: 90px;
   font-size: 10px;
   background-color: black;
   border: none;
   color: white;
   cursor: pointer;
   transition: opacity 0.15s;
+  padding: 9px 15px; 
 }
 .uber:hover{
   opacity: 0.8;
@@ -68,25 +67,25 @@ main {
   border: none;
   border-radius: 15px;
   background-color: rgb(255, 216, 20);
-  width: 150px;
-  height: 30px;
   cursor: pointer;
   transition: background-color 0.15s;
+  padding: 7px 43px;
+  font-size: 11px;
 }
 .amazon:hover{
   background-color: rgb(255, 204, 0);
 }
 /* C */
 .github {
-  width: 85px;
-  height: 30px;
   border: none;
   color: white;
   background-color: rgb(46, 164, 79);
   border-radius: 5px;
-  font-size: 13px;
+  font-size: 12px;
   cursor: pointer;
+  padding: 7px 15px; 
   transition: box-shadow 0.15s;
+  font-weight: bold;
 }
 .github:hover{
   box-shadow: 0px 5px 10px rgb(0, 0, 0, 0.15);
@@ -102,17 +101,16 @@ main {
 }
 /* D */
 .gt {
-  font-size: 10.5px;
+  font-size: 10.8px;
   font-weight: bold;
   border: none;
   border-radius: 3px;
   background-color: rgb(121, 82, 179);
   color: white;
-  width: 85px;
-  height: 30px;
   margin-right: 3px;
   cursor: pointer;
   transition: background-color 0.15s;
+  padding: 9px 18px;
 }
 .gt:hover{
   background-color: rgb(111, 53, 197);
@@ -122,12 +120,11 @@ main {
   border: 1px solid rgb(108, 117, 125);
   background-color: white;
   border-radius: 3px;
-  width: 85px;
-  height: 30px;
-  font-size: 10.5px;
+  font-size: 10.8px;
   font-weight: bold;
   cursor: pointer;
   transition: background-color 0.15s, color 0.15s; 
+  padding: 8px 18px;
 }
 .dl:hover{
   background-color: rgb(108, 117, 125);
@@ -139,12 +136,11 @@ main {
   background-color: rgb(10, 102, 194);
   border-radius: 20px;
   color: white;
-  width: 190px;
-  height: 30px;
   font-weight: bold;
   font-size: 10.9px;
   cursor: pointer;
-  transition: background-color 0.15s;
+  transition: background-color 0.15s; 
+  padding: 8px 14px;
 }
 .apply:hover{
   background-color: rgb(0, 80, 160);
@@ -153,14 +149,13 @@ main {
   background-color: white;
   color: rgb(10, 102, 194);
   border: 1px solid rgb(10, 102, 194);
-  width: 60px;
-  height: 30px;
   font-size: 11px;
   font-weight: bold;
   border-radius: 20px;
   margin-left: 4px;
   cursor: pointer;
   transition: border 0.15s;
+  padding: 7px 14px;
 }
 .save:hover{
   border: 2px solid rgb(10, 102, 194);
@@ -203,12 +198,11 @@ article {
   border: none;
   border-radius: 15px;
   background-color: rgb(225, 216, 20);
-  width: 100px;
-  height: 27px;
   font-weight: bold;
   font-size: 11.5px;
   cursor: pointer;
   transition: background-color 0.15s, opacity 0.15s;
+  padding: 7px 20px;
 }
 .add-cart:hover{
   background-color: rgb(235, 197, 9);
@@ -220,12 +214,11 @@ article {
   border: none;
   border-radius: 15px;
   background-color: rgb(255, 164, 28);
-  width: 100px;
-  height: 27px;
   font-weight: bold;
   font-size: 11.5px;
   cursor: pointer;
   transition: background-color 0.15s, opacity 0.15s;
+  padding: 7px 20px;
 }
 .buy:hover{
   background-color: rgb(241, 145, 1);

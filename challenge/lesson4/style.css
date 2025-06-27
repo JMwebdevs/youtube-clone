@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  font-family: sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.main-header {
+  top: 0px;
+  position: sticky;
+  background-color: rgb(79, 79, 79);
+  padding: 15px;
+  color: white;
+  text-shadow: 3px 3px 10px black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+}
+main{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.dev-tools{
+  flex: 1;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px ;
+}
+.btn-sub{
+  margin: 20px;
+  padding: 40px;
+  border: 1px solid;
+}
+.subcribe-btn {
+  background-color: rgb(200, 0, 0);
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: opacity 0.15s;
+  vertical-align: top;
+}
+.subcribe-btn:hover {
+  opacity: 0.8;
+}
+.subcribe-btn:active {
+  opacity: 0.5;
+}
+.join-btn {
+  background-color: white;
+  border: 1px solid rgb(6, 95, 212);
+  border-radius: 2px;
+  padding: 9px 16px;
+  cursor: pointer;
+  color: rgb(6, 95, 212);
+  transition: background-color 0.15s, color 0 0.15s;
+  vertical-align: top;
+}
+.join-btn:hover {
+  background-color: rgb(6, 95, 212);
+  color: white;
+}
+.join-btn:active {
+  opacity: 0.7;
+}
+.tweet-btn {
+  color: white;
+  border: none;
+  border-radius: 18px;
+  font-weight: bold;
+  background-color: rgb(29, 155, 240);
+  padding: 10px 16px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-left: 8px;
+  transition: box-shadow 0.15s;
+  vertical-align: top;
+}
+
+.tweet-btn:hover {
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.box-model{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.a-b{
+  flex: 1;
+  display: flex;
+}
+.pagination-wrapper{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.pagination-items{
+  flex: 1;
+  display: flex;
+  gap: 1rem;
+  padding: 40px 20px;
+  border: 1px solid;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.pagination-list{
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+.pagination-btn{
+  padding: 8px 5px;
+}
+.stretch-wrapper{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  flex-direction: column;
+  border-left: 1px solid;
+}
+.stretch-items{
+  display: flex;
+  padding: 40px 80px;
+  border: 1px solid;
+  margin: 40px;
+}
+.btn-stretch{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(1, 86, 1);
+  border: none;
+  color: white;
+  padding: 8px 10px;
+  font-size: 13px;
+  vertical-align: top;
+  transition: padding 0.15s, font-size 0.15s;
+}
+.btn-stretch:hover{
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.c-d{
+  flex: 1;
+  display: flex;
+}
+.click{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-top: 1px solid;
+} 
+.click-items{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.btn-3d-click{
+  margin: 20px;
+  border: 1px solid;
+  padding: 40px 70px;
+}
+.btn-3d{
+  padding: 10px 16px;
+  color: white;
+  background-color: rgb(1, 86, 1);
+  border: none;
+  transition:box-shadow 0.15s;
+}
+.btn-3d:hover{
+  box-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+.btn-3d:active{
+  box-shadow: none;
+}
+.margin-padding{
+  flex: 1;
+  border-top: 1px solid;
+  border-left: 1px solid;
+
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.margin-btn{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.btn-items{
+  padding: 50px 50px;
+  border: 1px solid;
+  justify-content: center;
+  align-items: center;
+}
+.btn-pad{
+  /* margin: 10px;   */
+  padding: 8px 15px; 
+  background-color: rgb(1, 86, 1);
+  border: none;
+  color: white;
+  transition: padding-left 0.15s, padding-right 0.15s;
+  vertical-align: top;
+  margin: 10px;
+
+}
+.btn-pad:hover{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+footer {
+  background-color: rgb(79, 79, 79);
+  padding: 20px;
+  text-align: center;
+  font-size: 10px;
+  color: rgb(176, 176, 176);
+}
