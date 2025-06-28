@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  font-family: Arial;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.main-header {
+  top: 0px;
+  position: sticky;
+  background-color: rgb(79, 79, 79);
+  padding: 15px;
+  color: white;
+  text-shadow: 3px 3px 10px black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+}
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.a {
+  flex: 3;
+  border-bottom: 1px solid;
+  display: flex;
+}
+.wrapper-a {
+  flex: 1;
+  border-right: 1px solid;
+  display: flex;
+  flex-direction: column;
+}
+.a-tahoma {
+  flex: 1;
+  border-bottom: 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.tahoma-items {
+  border: 1px solid;
+  font-family: Tahoma;
+  padding: 30px 20px;
+}
+.f-usd {
+  flex: 1;
+  border-bottom: 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.usd-items {
+  padding: 10px;
+  border: 1px solid;
+}
+.usd {
+  font-size: 25px;
+}
+.usd-span-1 {
+  color: rgb(73, 58, 52);
+  font-size: 14px;
+}
+.usd-today {
+  color: rgb(2, 73, 2);
+  font-size: 14px;
+  margin: 7px 0px;
+}
+.usd-time {
+  color: rgb(73, 58, 52);
+  font-size: 13px;
+}
+.usd-span-2 {
+  color: rgb(172, 0, 0);
+}
+.e-mac {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.e-items {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.e-new {
+  color: rgb(205, 55, 55);
+  font-size: 12px;
+}
+.e-mac-pro {
+  font-size: 16px;
+  font-weight: 550;
+}
+.e-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.e-price {
+  font-size: 13px;
+}
+.wrapper-b {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-buy {
+  margin-top: 8px;
+  background-color: rgb(75, 75, 208);
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-size: 12px;
+  padding: 6px 13px;
+  cursor: pointer;
+}
+.b-arial {
+  flex: 1;
+  border-bottom: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.b-arial-items {
+  border: 1px solid;
+  padding: 10px;
+}
+.b-deals {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 3px;
+}
+.b-sales {
+  font-size: 13px;
+  font-style: italic;
+  color: rgb(179, 0, 0);
+}
+.c-verdana {
+  flex: 1;
+  border-bottom: 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.c-verdana-items {
+  font-family: Verdana;
+  border: 1px solid;
+  padding: 10px;
+}
+.c-verdana-title {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+.c-subtitle {
+  color: rgb(106, 106, 106);
+  font-size: 12.5px;
+}
+.c-description {
+  font-size: 12px;
+  width: 230px;
+  margin-top: 15px;
+  margin-bottom: 13px;
+}
+.get-started {
+  border: none;
+  color: white;
+  background-color: green;
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.d-arial {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.d-arial-items{
+  padding: 10px;
+  border: 1px solid;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.d-title{
+  font-weight: bold;
+  font-size: 20px;
+}
+.d-descrip{
+  font-size: 11.5px;
+}
+.d-learn-more{
+  font-size: 11.5px;
+  color: blue;
+  cursor: pointer;
+}
+
+.g {
+  flex: 1;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper-g-items {
+  border: 1px solid;
+  padding: 10px;
+}
+.g-domain {
+  font-weight: bold;
+}
+.g-domain-at {
+  color: gray;
+  font-weight: normal;
+}
+.g-description {
+  margin-top: 4px;
+  width: 500px;
+  margin-bottom: 20px;
+  line-height: 24px;
+}
+.g-li {
+  color: blue;
+  cursor: pointer;
+}
+footer {
+  background-color: rgb(79, 79, 79);
+  padding: 20px;
+  text-align: center;
+  font-size: 10px;
+  color: rgb(176, 176, 176);
+}
