@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  font-family: sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.main-header {
+  font-size: 12px;
+  top: 0px;
+  position: sticky;
+  background-color: rgb(79, 79, 79);
+  padding: 16px;
+  color: white;
+  text-shadow: 3px 3px 10px black;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.section1 {
+  flex: 1;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.wrapper1 {
+  border: 1px solid;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.google-logo {
+  width: 200px;
+  margin-bottom: -60px;
+}
+.google-txt {
+  border: none;
+  box-shadow: 0px 1px 5px rgba(128, 128, 128, 0.831);
+  padding: 8px 13px;
+  border-radius: 20px;
+  width: 410px;
+  font-size: 13px;
+}
+.section2 {
+  flex: 1;
+  border-bottom: 1px solid black;
+  display: flex;
+}
+.wrapper2 {
+  flex: 1;
+  border-right: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.signup-form {
+  border: 1px solid;
+  padding: 12px;
+}
+.signup-items {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.firstname-txt {
+  border: 1px solid gray;
+  background-color: white;
+  font-size: 12px;
+  padding: 8px 10px;
+  border-radius: 5px;
+  width: 120px;
+}
+.firstname2-txt {
+  border: 1px solid gray;
+  background-color: white;
+  font-size: 12px;
+  padding: 8px 10px;
+  border-radius: 5px;
+  width: 105px;
+}
+.email-txt {
+  border: 1px solid gray;
+  background-color: white;
+  font-size: 12px;
+  padding: 8px 10px;
+  border-radius: 5px;
+}
+.btn-signup {
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(26, 115, 232);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 10px;
+}
+.wrapper3 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.uber-items {
+  border: 1px solid black;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+}
+.uber-input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.uber-title {
+  font-size: 30px;
+}
+.uber-loc {
+  color: black;
+  width: 18rem;
+
+  font-size: 12px;
+  border: none;
+  background-color: rgba(226, 226, 226, 0.578);
+  padding: 9px 20px;
+}
+.uber-destiny {
+  color: black;
+  width: 18rem;
+  font-size: 12px;
+  border: none;
+  background-color: rgba(226, 226, 226, 0.578);
+  padding: 9px 20px;
+}
+.uber-request {
+  padding: 9px 18px;
+  font-size: 12px;
+  border: none;
+  color: white;
+  background-color: black;
+  transition: opacity 0.15s;
+}
+.uber-request:hover {
+  opacity: 0.8;
+}
+.uber-later {
+  padding: 9px 18px;
+  font-size: 12px;
+  border: none;
+  background-color: rgba(226, 226, 226, 0.578);
+  color: black;
+}
+.uber-btn-wrapper {
+  display: flex;
+  gap: 0.9rem;
+}
+.wrapper4 {
+  flex: 1;
+  border-right: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0px;
+}
+.name-email-items {
+  border: 1px solid;
+  padding: 30px;
+}
+.txt-name {
+  display: block;
+  margin-bottom: 5px;
+  width: 150px;
+  border: 1px solid rgb(118, 118, 118);
+  border-radius: 2px;
+  padding: 3px 3px;
+}
+.txt-email {
+  padding: 3px 3px;
+  border-radius: 2px;
+  display: block;
+  width: 150px;
+  border-radius: 2px;
+  border: 1px solid rgb(118, 118, 118);
+}
+.wrapper5 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.survey-items {
+  padding: 10px;
+  border: 1px solid black;
+}
+.survey-txt {
+  display: inline-block;
+  width: 230px;
+  vertical-align: middle;
+  font-family: 'Times New Roman';
+}
+.yes {
+  padding: 2px 6px;
+}
+.no {
+  padding: 2px 6px;
+}
+.section3 {
+  flex: 1;
+  display: flex;
+}
+footer {
+  background-color: rgb(79, 79, 79);
+  padding: 20px;
+  text-align: center;
+  font-size: 10px;
+  color: rgb(176, 176, 176);
+}
