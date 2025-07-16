@@ -233,12 +233,13 @@ footer {
   color: rgb(176, 176, 176);
   border: none;
 }
-@media (max-width: 715px) {
+@media (max-width: 755px) {
   .cat-container {
     padding: 50px 0px;
+    
   }
   .cat-items {
-    flex-direction: column;
+    flex-direction: column; 
     gap: 40px;
   }
   .image-1 {
