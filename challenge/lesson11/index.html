@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge - lesson 11</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <header class="main-header">
+        <h1>Lesson 11 Exercise: CSS Grid</h1>
+      </header>
+
+      <main>
+        <!-- A -->
+        <section class="a">
+          <p class="questions">
+            <span class="highlights">11a.</span> Create a grid with 2 columns
+            with widths of 200px and 75px
+          </p>
+          <div class="a-grid">
+            <div style="background-color: lightblue">200px</div>
+            <div style="background-color: lightpink">75px</div>
+          </div>
+        </section>
+
+        <!-- B -->
+        <section class="b">
+          <p class="questions">
+            <span class="highlights">11b.</span> Create a grid with 3 columns.
+            Width = 50px | remaining space | 75px
+          </p>
+          <div class="b-grid">
+            <div style="background-color: lightblue">col1</div>
+            <div style="background-color: lightpink">col2</div>
+            <div style="background-color: lightblue">col3</div>
+          </div>
+        </section>
+
+        <!-- C -->
+        <section class="c">
+          <p class="questions">
+            <span class="highlights">11c.</span> Create a grid with 4 equal
+            columns that take up the entire page. space between columns = 20px,
+            space between rows = 10px
+          </p>
+          <div class="c-grid">
+            <div style="background-color: lightpink">col1</div>
+            <div style="background-color: lightpink">col2</div>
+            <div style="background-color: lightpink">col3</div>
+            <div style="background-color: lightpink">col4</div>
+            <div style="background-color: lightpink">col1</div>
+            <div style="background-color: lightpink">col2</div>
+            <div style="background-color: lightpink">col3</div>
+            <div style="background-color: lightpink">col4</div>
+          </div>
+        </section>
+        <p class="questions" style="text-align: center; margin-top: 20px">
+          <span class="highlights">11d.</span> Continuing from Exercise 10e.
+          create this design using CSS grid, <br />1. Create a grid with 3
+          columns and put the elements into the grid, <br />
+          2. Replace any uses of display:inline-block,<br />
+          3. To align elements vertically in a grid , use align-items: center;
+        </p>
+        <!-- D -->
+        <section class="d">
+          <div class="d-container">
+            <div class="cards">
+              <div class="profile-pic">
+                <img src="img/image1.jpg" alt="" class="johnmark" />
+              </div>
+              <div class="profile-info">
+                <div class="profile-name">
+                  <p>John Mark Lapenid</p>
+                </div>
+                <div class="mutuals">
+                  <div class="mutuals-profile">
+                    <img src="img/image3.png" class="mutuals-nenz" alt="" />
+                  </div>
+                  <div class="mutuals-numbers">4 mutuals friends</div>
+                </div>
+                <div class="btn-container">
+                  <button class="add">Add Friend</button>
+                </div>
+              </div>
+            </div>
+            <div class="cards">
+              <div class="profile-pic">
+                <img src="img/image2.jpg" alt="" class="luis" />
+              </div>
+              <div class="profile-info">
+                <div class="profile-name">
+                  <p>Luis Camaso</p>
+                </div>
+                <div class="mutuals">
+                  <div class="mutuals-profile">
+                    <img src="img/image1.jpg" class="mutuals-nenz" alt="" />
+                  </div>
+                  <div class="mutuals-numbers">5 mutuals friends</div>
+                </div>
+                <div class="btn-container">
+                  <button class="add">Add Friend</button>
+                </div>
+              </div>
+            </div>
+            <div class="cards">
+              <div class="profile-pic">
+                <img src="img/image3.png" alt="" class="nenz" />
+              </div>
+              <div class="profile-info">
+                <div class="profile-name">
+                  <p>Nenz Tambago</p>
+                </div>
+                <div class="mutuals">
+                  <div class="mutuals-profile">
+                    <img src="img/image2.jpg" class="mutuals-nenz" alt="" />
+                  </div>
+                  <div class="mutuals-numbers">2 mutuals friends</div>
+                </div>
+                <div class="btn-container">
+                  <button class="add">Add Friend</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- Footer -->
+      <footer>
+        <p>&copy;JMwebdevs</p>
+      </footer>
+    </div>
+  </body>
+</html>
