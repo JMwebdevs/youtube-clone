@@ -1,11 +1,8 @@
+
 .thumbnails {
   width: 100%;
   /* display: block; */
 }
-.search-bar {
-  display: block;
-}
-
 
 .video-title {
   margin-top: 0;
@@ -23,11 +20,7 @@
 .thumbnail-row {
   margin-bottom: 12px;
 }
-p {
-  font-family: Roboto, Arial;
-  margin-top: 0;
-  margin-bottom: 0;
-}
+
 .video-author,
 .video-stats {
   font-size: 12px;

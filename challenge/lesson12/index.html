@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge - lesson 12</title>
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/body.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header class="main-header">
+        <h1>Lesson 12 Exercise: Flexbox</h1>
+      </header>
+      <main>
+        <div class="section-a">
+          <!-- one -->
+          <div class="l12-A">
+            <div class="l12-a-container" style="display: flex">
+              <div style="width: 200px; background-color: lightblue">200px</div>
+              <div style="width: 75px; background-color: lightpink">75px</div>
+            </div>
+          </div>
+
+          <!-- two -->
+          <div class="l12-B">
+            <div class="l12-b-container" style="display: flex">
+              <div style="background-color: lightblue; flex: 50px">item1</div>
+              <div style="background-color: lightpink; flex: 1">item2</div>
+              <div style="background-color: lightblue; flex: 75px">item3</div>
+            </div>
+          </div>
+
+          <!-- three -->
+          <div class="l12-C">
+            <div
+              class="l12-c-container"
+              style="
+                display: flex;
+                justify-content: space-between;
+                background-color: rgb(211, 211, 211);
+              "
+            >
+              <div style="background-color: lightpink">item1</div>
+              <div style="background-color: lightpink">item2</div>
+              <div style="background-color: lightpink">item3</div>
+              <div style="background-color: lightpink">item4</div>
+            </div>
+          </div>
+
+          <!-- four -->
+          <div class="l12-D">
+            <div
+              class="l12-d-container"
+              style="
+                display: flex;
+                border: 1px solid gray;
+                height: 50px;
+                justify-content: space-between;
+                align-items: center;
+              "
+            >
+              <div style="background-color: lightpink">item1</div>
+              <div style="background-color: lightpink">item2</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-b">
+          <!-- first -->
+          <div class="l12-E">
+            <div
+              class="l12-e-container"
+              style="
+                display: flex;
+                flex-direction: column;
+                border: 1px solid gray;
+                border-radius: 6px;
+                padding: 10px 12px;
+                width: 300px;
+                gap: 10px;
+              "
+            >
+              <div class="e-align">
+                <p style="font-weight: bold">Home</p>
+                <p class="num-status">14</p>
+              </div>
+              <div class="e-align">
+                <p style="font-weight: bold">Notifications</p>
+                <p class="num-status">3</p>
+              </div>
+              <div class="e-align">
+                <p style="font-weight: bold">Messages</p>
+                <p class="num-status">5</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- second -->
+          <div class="l12-f">
+            <div class="l12-f-container">
+              <div class="profile-container">
+                <div class="left-content">
+                  <div class="img">
+                    <a
+                      href="https://musashiofficial.medium.com/miyamoto-musashi-musashi-7ff92f877da1"
+                      title="Click the img to see more"
+                      target="_blank"
+                    >
+                      <img src="img/musashi.webp" class="profile-pic" />
+                    </a>
+                  </div>
+                  <div class="profiles">
+                    <p>Miyamoto Musashi</p>
+                    <p>Vagabond</p>
+                    <p>Takehiko Inoue</p>
+                  </div>
+                </div>
+                <div class="right-content">
+                  <button class="btn-follow">Follow</button>
+                </div>
+              </div>
+              <div class="profile-container">
+                <div class="left-content">
+                  <div class="img">
+                    <img src="img/shi.jpg" class="profile-pic" />
+                  </div>
+                  <div class="profiles">
+                    <p>Hi Shin</p>
+                    <p>Kingdom</p>
+                    <p>Yasushi Hara</p>
+                  </div>
+                </div>
+                <div class="right-content">
+                  <button class="btn-follow">Follow</button>
+                </div>
+              </div>
+              <div class="profile-container">
+                <div class="left-content">
+                  <div class="img">
+                    <img src="img/tenma.jpg" class="profile-pic" />
+                  </div>
+                  <div class="profiles">
+                    <p>Kenzo Tenma</p>
+                    <p>Monster</p>
+                    <p>Naoki Urusawa</p>
+                  </div>
+                </div>
+                <div class="right-content">
+                  <button class="btn-follow">Follow</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="l12-g">
+            <div class="l12-g-container">
+              <div class="home">Home</div>
+              <div class="search-wrapper">
+                <input type="search" class="search" placeholder="Search"/>
+              </div>
+              <div class="btn-container">
+                <button class="btn-dl">Download</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer>&copy;JMwebdevs</footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  padding-bottom: 1000px;
+  height: 100%;
+}
+.container {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+}
+.example-4,
+.example-5,
+.example-6,
+.example-7 {
+  display: flex;
+  margin-top: 30px;
+  height: 70px;
+  border: 1px solid gray;
+}
+
+/* Justify Content (start, end, center) */
+.example-5 {
+  justify-content: end;
+}
+
+/* Justify Content (space-between) = equal amount of space */
+.example-6 {
+  justify-content: space-between;
+}
+
+/* align items (center, stretch, start, end) */
+.example-7{
+  justify-content: space-between;
+  align-items: center;/* for vertically center */
+}
